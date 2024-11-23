@@ -1574,5 +1574,97 @@
   expected-result: |
     Страница товаров изменяется в настоящем времени без перезагрузки страницы
 
+- summary: |
+    Проверка использования протокола https
+  requirement: |
+    Сайт должен быть безопасен
+  prerequisites:
+    Открыта страница товаров
+  test-data: |
+  steps:
+   - Нажимаем на значок замка в браузере
+   - Проверяем действительность сертефиката 
+  expected-result: |
+    Сайт должен быть защищен
+
+- summary: |
+    Проверка перенаправления сайта http на https
+  requirement: |
+    Сайт должен быть безопасен
+  prerequisites:
+    Открыт браузер 
+  test-data: |
+    http://hexlet-products-store.vercel.app/
+  steps:
+   - В адресную строку вставляем тестовые данные
+  expected-result: |
+    Браузер должен автоматически перенаправить пользователя на сайт с протоколом http
+
+- summary: |
+    Проверка принудительного использования HTTPS через дополнительный инструмент
+  requirement: |
+    Сайт должен принудительно использовать HTTPS
+  prerequisites:
+    Открыт инструмент Why No Padlock по ссылке https://www.whynopadlock.com/
+  test-data: |
+    https://hexlet-products-store.vercel.app/
+  steps:
+   - В поле для ссылки вставляем тестовые данные
+  expected-result: |
+    Сайт должен принудительно использовать HTTPS
+
+- summary: |
+    Проверка дейстивительности сертификата через дополнительный инструмент
+  requirement: |
+    Сертификат должен быть установлен правильно
+  prerequisites:
+    Открыт инструмент Why No Padlock по ссылке https://www.whynopadlock.com/
+  test-data: |
+    https://hexlet-products-store.vercel.app/
+  steps:
+   - В поле для ссылки вставляем тестовые данные
+  expected-result: |
+    Сертификат сайта должен  быть действительным
+
+- summary: |
+    Проверка соответсвие домена через дополнительный инструмент
+  requirement: |
+    Домен должен соответсвовать сертификату
+  prerequisites:
+    Открыт инструмент Why No Padlock по ссылке https://www.whynopadlock.com/
+  test-data: |
+    https://hexlet-products-store.vercel.app/
+  steps:
+   - В поле для ссылки вставляем тестовые данные
+  expected-result: |
+    Сертификат должен соответствовать домену
+
+- summary: |
+    Проверка срока сертификата через дополнительный инструмент
+  requirement: |
+    Срок сертификата должен быть активным
+  prerequisites:
+    Открыт инструмент Why No Padlock по ссылке https://www.whynopadlock.com/
+  test-data: |
+    https://hexlet-products-store.vercel.app/
+  steps:
+   - В поле для ссылки вставляем тестовые данные
+  expected-result: |
+    Сертификат должен быть активен
+
+- summary: |
+    Проверка на использование смешенных протоколов через дополнительный инструмент
+  requirement: |
+    Все ресурсы должны загружаться через HTTPS
+  prerequisites:
+    Открыт инструмент Why No Padlock по ссылке https://www.whynopadlock.com/
+  test-data: |
+    https://hexlet-products-store.vercel.app/
+  steps:
+   - В поле для ссылки вставляем тестовые данные
+  expected-result: |
+    Не должен быть найден смешанный контент
+
+
 
 
