@@ -4,7 +4,7 @@
   requirement: |
     При поиске по существующим ключевым словам пользователь должен увидеть соответствующие товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Powder, Red, White
   steps:
@@ -17,7 +17,7 @@
   requirement: |
     При поиске по существующим ключевым словам пользователь должен увидеть соответствующие товары, начинающиеcя с этих букв
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Powd, Re, Wh
   steps:
@@ -30,7 +30,7 @@
   requirement: |
     При поиске по существующим ключевым словам пользователь должен увидеть соответствующие товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     powder, ReD, WHITE
   steps:
@@ -43,7 +43,7 @@
   requirement: |
     При поиске по существующим ключевым словам пользователь должен увидеть соответствующие товары внезависимости от порядка слов
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Powder Protein, Onions Red, Faux White
   steps:
@@ -56,7 +56,7 @@
   requirement: |
     При поиске по существующим ключевым словам с опечатками пользователь должен увидеть соответствующие товары и система должна исправить опечатки
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Powdr, Red, Whiti
   steps:
@@ -69,7 +69,7 @@
   requirement: |
     При поиске по существующим ключевым словам, но с использованием неправильной раскладки пользователь должен увидеть соответствующие товары и система должна исправить раскладку
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Зщцвук, Кув, Цршеу
   steps:
@@ -82,7 +82,7 @@
   requirement: |
     При поиске по существующим ключевым словам с ненужными пробелами пользователь должен увидеть соответствующие товары и система должна исправить ввод
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     "Powder ", " Red", "White  "
   steps:
@@ -95,7 +95,7 @@
   requirement: |
     При поиске по по пустому полю поиск не должен срабатывать (я так предполагаю, но не уверена)
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     "  "
   steps:
@@ -108,7 +108,7 @@
   requirement: |
     При выборе категории должны отображаться соответсвующая категория товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     beauty
   steps:
@@ -122,7 +122,7 @@
   requirement: |
     При снятии всех категорий должны отображаться все товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
     Выбраны категории
   test-data: |
     beauty
@@ -136,7 +136,7 @@
   requirement: |
     При выборе производителя должны отображаться соответсвующие товары прозводителя
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
      Essence
      Longines
@@ -151,7 +151,7 @@
   requirement: |
     При выборе производителей должны отображаться соответсвующие производителям товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {Fashion Shades, Samsung}
     {Attitude, Comfort Trends}
@@ -165,7 +165,7 @@
   requirement: |
     При снятии всех производителей должны отображаться все товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
     Выбраны производители
   test-data: |
     Essence
@@ -179,7 +179,7 @@
   requirement: |
     При выборанном состоянии наличия должны отображаться соответсвующие товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
      In Stock
   steps:
@@ -192,7 +192,7 @@
   requirement: |
     При выборанном состоянии наличия должны отображаться соответсвующие товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
      no (In Stock)
   steps:
@@ -205,7 +205,7 @@
   requirement: |
     При фильтрации по цене должны отображаться товары, которые входят в этот ценовой диапазон
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от 500 до 1500
   steps:
@@ -218,7 +218,7 @@
   requirement: |
     При фильтрации по цене должны отображаться товары, которые входят в этот ценовой диапазон
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от 0 до 0.81
   steps:
@@ -231,7 +231,7 @@
   requirement: |
     При фильтрации по цене должны отображаться товары, которые входят в этот ценовой диапазон
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от 2036.48 до 2036.49
   steps:
@@ -244,7 +244,7 @@
   requirement: |
     При фильтрации по цене по минимальной и максимальной границах должны отображаться все товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от 0.81 до 2036.49
   steps:
@@ -257,7 +257,7 @@
   requirement: |
     При фильтрации по цене при пустых полях должны отображаться все товары
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от { } до { }
   steps:
@@ -270,7 +270,7 @@
   requirement: |
     При фильтрации по цене по ценовому диапазону, в котором ни одного товара нет, должно отображаться сообщение о том, что ни один товар не найден
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от 0 до 0
   steps:
@@ -283,7 +283,7 @@
   requirement: |
     При фильтрации по цене в соответсвующие поля можно вводить только числа
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       от 0 до ыва0рол
       от 0 до )?%0№
@@ -299,7 +299,7 @@
   requirement: |
     Фильтрация по поиску должна работать по всем страницам товаров
   prerequisites: |
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Powder, Red, White
   steps:
@@ -312,7 +312,7 @@
   requirement: |
     Фильтрация по категории должна работать по всем страницам товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     groceries
     kitchen-accessories
@@ -327,7 +327,7 @@
   requirement: |
     Фильтрация по производителю должна работать по всем страницам товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Apple
     Lenovo
@@ -342,7 +342,7 @@
   requirement: |
     Фильтрация по наличию должна работать по всем страницам товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     In Stock
   steps:
@@ -355,7 +355,7 @@
   requirement: |
     Фильтрация по наличию должна работать по всем страницам товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     no (In Stock)
   steps:
@@ -368,7 +368,7 @@
   requirement: |
     Фильтрация по цене должна работать по всем страницам товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/ 
   test-data: |
     от 0 до 1000
     от 367 до 450
@@ -383,7 +383,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по категории и поиску
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {red:beauty}
     {powder:groceries}
@@ -399,7 +399,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по категории и производителю
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {Essence:beauty}
     {laptops:Nike, Dell}
@@ -415,7 +415,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по производителю и поиску
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {red:Nail Couture}
     {powder:Velvet Touch}
@@ -431,7 +431,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по категории и наличию
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {groceries: no (In Stock)}
     {sports-accessories:Nike, no (In Stock)}
@@ -447,7 +447,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по производителю и наличию
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {Vivo: no (In Stock)}
     {Chrysler, no (In Stock)}
@@ -463,7 +463,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по цене и наличию
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {0-8: no (In Stock)}
     {0-50, no (In Stock)}
@@ -479,7 +479,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по поиску и наличию
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {Lemon: no (In Stock)}
     {Red :In Stock}
@@ -494,7 +494,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по цене и производителю
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {0-300: Chanel}
     {200-1500, Bath Trends}
@@ -510,7 +510,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по цене и производителю
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {0-300: fragrances}
     {200-1500, furniture}
@@ -526,7 +526,7 @@
   requirement: |
     Должны отображаться соответсвующие товары по цене и поиску
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     {0-300: red}
     {200-1500, huawei}
@@ -542,7 +542,7 @@
   requirement: |
     Все элементы всех страниц (текст кнопок, полей, заголовков, карточек товаров, категорий) должны быть переведены на выбранный язык
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Russian
   steps:
@@ -559,7 +559,7 @@
   requirement: |
     Все элементы всех страниц (текст кнопок, полей, заголовков, карточек товаров, категорий) должны быть переведены на выбранный язык
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     English
   steps:
@@ -576,7 +576,7 @@
   requirement: |
     В соответсвии с выбранным языком должны отображаться валюты и числа в соответсвии с локальными стандартами. Для русского языка: 1 000 ₽ и 1 000,50. Для английского: $1,000 и 1,000.50
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Russian
   steps:
@@ -593,7 +593,7 @@
   requirement: |
     В соответсвии с выбранным языком должны отображаться валюты и числа в соответсвии с локальными стандартами. Для русского языка: 1 000 ₽ и 1 000,50. Для английского: $1,000 и 1,000.50
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     English
   steps:
@@ -610,7 +610,7 @@
   requirement: |
     Основной контент должен быть виден. Дизайн и функционал сайта не должны меняться на разных разрешениях. Переходы между версиями макета должны быть «плавными». Поля не должны выходить за границы
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
     Открыт DevTools
   test-data: |
     375 пикселей по ширине для мобильных устройств
@@ -686,7 +686,7 @@
   requirement: |
     При нажатии кнопки добавления товара в корзину значок корзины на странице товаров должен отображать количество добавленных товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -699,7 +699,7 @@
   requirement: |
     При добавлении товара в корзину название товара в корзине должно соответсвовать названию товара, который был добавлен в корзину
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -713,8 +713,8 @@
   requirement: |
     При добавлении товара в корзину цена товара в корзине должно соответсвовать цене товара, который был добавлен в корзину
   prerequisites:
-    Открыта страница товаров
-  test-data: |
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
+  test-data: | 
     none
   steps:
     - Нажимаем на кнопку добавления товара
@@ -727,7 +727,7 @@
   requirement: |
     При добавлении товара в корзину количество товара в корзине должно соответсвовать количеству товара, который был добавлен в корзину
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -741,7 +741,7 @@
   requirement: |
     При добавление разных товаров в корзину они должны отображаться как отдельные позиции
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -757,7 +757,7 @@
   requirement: |
     При добавление одного товара должна быть сформирована одна строка с увеличением количества
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -774,7 +774,7 @@
   requirement: |
     Сумма заказа должна формироваться корректно
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -789,7 +789,7 @@
   requirement: |
     У пользователя должна быть возможность заказать только то количество товаров, которое доступно на складе
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -803,7 +803,7 @@
   requirement: |
     При добавлении товаров в количестве, превышающем доступное на складе, количество, добавленных товаров в корзину, у значка корзины должно быть равно максимальному количеству товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -816,7 +816,7 @@
   requirement: |
     У пользователя не должно быть возможности заказать того товара, которого нет
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -830,7 +830,7 @@
   requirement: |
     При добавлении в корзину товаров, которых нет в наличии, количество, добавленных товаров в корзину, у значка корзины не должно появляться
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -843,7 +843,7 @@
   requirement: |
     У пользователя должна быть возможность увеличить количество товаров в корзине
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -858,7 +858,7 @@
   requirement: |
     Сумма заказа должна формулмироваться корректно при всех возможных сценариях
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -873,7 +873,7 @@
   requirement: |
     У пользователя должна быть возможность уменьшить количество товаров в корзине
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -888,7 +888,7 @@
   requirement: |
     Сумма заказа должна формулмироваться корректно при всех возможных сценариях
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -903,7 +903,7 @@
   requirement: |
     При удалении всех товаров из корзины, корзина должна стать "пустой"
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -918,7 +918,7 @@
   requirement: |
     Корзина добавленных товаров должна сохраняться при всех возможных сценариях
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -934,7 +934,7 @@
   requirement: |
     Корзина добавленных товаров должна сохраняться при всех возможных сценариях
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -949,7 +949,7 @@
   requirement: |
     На странице товаров должно быть удобное добавления товаров, то есть чтобы количество товаров можно было менять прямо на странице товаров
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -963,7 +963,7 @@
   requirement: |
     На странице корзины должна быть кнопку для возвращения на страницу товаров
   prerequisites:
-    Открыта страница корзины
+    Открыта страница корзины по ссылке https://hexlet-products-store.vercel.app/cart
   test-data: |
     none
   steps:
@@ -976,7 +976,7 @@
   requirement: |
     На странице товара должна быть возможность добавления товара в корзину
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -990,7 +990,7 @@
   requirement: |
     Значок корзины должен отображать количество добавленных товаров в корзину после добавления товаров в корзину со страницы товара
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1003,7 +1003,7 @@
   requirement: |
     При добавлении товара в корзину название товара в корзине должно соответсвовать названию товара, который был добавлен в корзину
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1017,7 +1017,7 @@
   requirement: |
     При добавлении товара в корзину цена товара в корзине должно соответсвовать цене товара, который был добавлен в корзину
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1031,7 +1031,7 @@
   requirement: |
     При добавлении товара в корзину количество товара в корзине должно соответсвовать количеству товара, который был добавлен в корзину
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1045,7 +1045,7 @@
   requirement: |
     У пользователя должна быть возможность заказать только то количество товаров, которое доступно на складе
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1059,7 +1059,7 @@
   requirement: |
     При добавлении товаров в количестве, превышающем доступное на складе, количество, добавленных товаров в корзину, у значка корзины должно быть равно максимальному количеству товаров
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1072,7 +1072,7 @@
   requirement: |
     У пользователя не должно быть возможности заказать того товара, которого нет
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1086,7 +1086,7 @@
   requirement: |
     При добавлении в корзину товаров, которых нет в наличии, количество, добавленных товаров в корзину, у значка корзины не должно появляться
   prerequisites:
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
     none
   steps:
@@ -1099,7 +1099,7 @@
   requirement: |
     Описания товара везде должно быть одинаковым. Описания не должны противоречить друг другу
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1113,7 +1113,7 @@
   requirement: |
     Цена товара везде должна быть одинаковой
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1127,7 +1127,7 @@
   requirement: |
     Название товара везде должно быть одинаковым
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1141,7 +1141,7 @@
   requirement: |
     На странице товара нужно выводить рейтинг
   prerequisites:
-    Открыта страница товаров, цены товара со скидкой и без нее
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1154,7 +1154,7 @@
   requirement: |
     На странице товаров нужно выводить рейтинг, цены товара со скидкой и без нее
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1167,7 +1167,7 @@
   requirement: |
     На странице корзины должна быть возможность просматривать содержимое, что также подразумевает возможность перейти к странице товара
   prerequisites:
-    Открыта страница корзина
+    Открыта страница корзина по ссылке https://hexlet-products-store.vercel.app/cart
     В корзине есть добавленные товары
   test-data: |
     none
@@ -1181,7 +1181,7 @@
   requirement: |
     У пользователя должна быть возможность оформить заказ с переходом на страницу оплаты
   prerequisites:
-    Открыта страница корзина
+    Открыта страница корзина по ссылке https://hexlet-products-store.vercel.app/cart
     В корзине есть добавленные товары
   test-data: |
     none
@@ -1195,7 +1195,7 @@
   requirement: |
     Корзина пользователя должна сохраняться
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
     Открыты DevTools > Приложение > Хранение сеансов
   test-data: |
     none
@@ -1209,7 +1209,7 @@
   requirement: |
     Навигация сайта должна работать правильно
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1222,7 +1222,7 @@
   requirement: |
     Сайт не должен перезагружать страницу
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Red
     White
@@ -1251,7 +1251,7 @@
   requirement: |
     Сайт должен быть безопасен
   prerequisites:
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1343,7 +1343,7 @@
   requirement: |
     Фото стоит использовать в формате jpg, так как этот формат весит меньше чем png. также стоит учесть, что изображения не содержат прозрачных элементов
   prerequisites:
-    Открыт страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1359,7 +1359,7 @@
   requirement: |
     Часто используемые данные (изображения, стили, скрипты) должны быть сохранены
   prerequisites:
-    Открыт страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     none
   steps:
@@ -1376,7 +1376,7 @@
   requirement: |
     Текст, введеный в поле для поиска, не должен уходить на сервер, чтобы предотвратить возможные XSS и SQL-инъекции
   prerequisites:
-    Открыт страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
     Red
     White
@@ -1395,7 +1395,7 @@
   requirement: |
     Пользователя должно перевести к категории, соответсвующей хэштегу
   prerequisites: |
-    Открыта страница товара
+    Открыта страница товара по ссылке https://hexlet-products-store.vercel.app/products/1
   test-data: |
       none
   steps:
@@ -1408,7 +1408,7 @@
   requirement: |
     Запросы- важная часть функционала, которая должна работать корректно
   prerequisites: |
-    Открыта страница товаров
+    Открыта страница товаров по ссылке https://hexlet-products-store.vercel.app/
   test-data: |
       none
   steps:
@@ -1431,10 +1431,11 @@
   requirement: |
     У пользователя должна быть возможность вернуться к другим страницам сайта
   prerequisites: |
-    Открыта страница оформления заказа
+    Открыта страница корзины по ссылке https://hexlet-products-store.vercel.app/cart
   test-data: |
       none
   steps:
+    - Нажимаем на кнопку оформления заказа
     - Закрываем страницу товара нажатием на кнопку "Close" и на крестик в правом верхнем углу
   expected-result: |
     Пользователя должно вернуть на страницу корзины
